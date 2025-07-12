@@ -8,4 +8,3 @@ models:
         description: "<A brief description of the column>"
         tests:
           - not_null
-
