@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: orders
+    description: "Orders"
+    columns:
+      - name: order_id
+        description: "<A brief description of the column>"
+        tests:
+          - not_null
+
