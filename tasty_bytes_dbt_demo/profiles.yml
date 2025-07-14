@@ -6,14 +6,14 @@ tasty_bytes:
       account: 'not needed'
       user: 'not needed'
       role: accountadmin
-      database: tasty_bytes_dbt_db
+      database: KAZUKI_OTANI_DB
       schema: dev
-      warehouse: tasty_bytes_dbt_wh
+      warehouse: KAZUKI_OTANI_WH
     prod:
       type: snowflake
       account: 'not needed'
       user: 'not needed'
       role: accountadmin
-      database: tasty_bytes_dbt_db
+      database: KAZUKI_OTANI_DB
       schema: prod
-      warehouse: tasty_bytes_dbt_wh
+      warehouse: KAZUKI_OTANI_WH
