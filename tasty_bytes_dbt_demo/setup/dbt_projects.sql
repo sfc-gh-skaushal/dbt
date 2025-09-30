@@ -1,4 +1,4 @@
-TASTY_BYTES_DBT_DB.RAW.DBT_TRUCK_SALES  use role sysadmin;
+use role sysadmin;
   use database TASTY_BYTES_DBT_DB;
   use schema raw;
 
