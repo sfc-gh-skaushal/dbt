@@ -30,7 +30,7 @@ args='deps --target dev' external_access_integrations = (DBT_ACCESS_INTEGRATION)
   ARGS = 'run  --target dev';
 
       EXECUTE DBT PROJECT TASTY_BYTES_DBT_DB.RAW.DBT_TRUCK_SALES
-  ARGS = 'run  --select staging/raw_customer_customer_loyalty.sql --target dev';
+  ARGS = 'run  --select staging --target prod';
 
 
 
